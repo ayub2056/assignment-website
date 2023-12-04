@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(45deg, #02075d, #394867);
+    }
+
+    header {
+      text-align: left;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .login-container {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 300px;
+      text-align: center;
+    }
+
+    .login-container h2 {
+      color: #333;
+    }
+
+    .login-container p {
+      font-style: italic;
+      color: #666;
+      margin-top: 10px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-container button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Villa Rosa Hotel</h1>
+  </header>
+  <div class="login-container">
+    <h2>Book Now</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <input type="number" placeholder="Number of Rooms" required>
+      <input type="number" placeholder="Number of Persons" required>
+      <button type="submit">Book</button>
+    </form>
+    <p>Your oasis of luxury and comfort awaits at Villa Rosa Hotel. Experience a stay like never before!</p>
+  </div>
+</body>
+</html>
